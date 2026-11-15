@@ -152,7 +152,7 @@ label random:
 
         "Closet":
             e "words"
-            jump random
+            jump closet
 
         "Bed":
             jump random
