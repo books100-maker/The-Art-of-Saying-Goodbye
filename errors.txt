@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 99: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "you have acquired a key"
+    ^
+
+Ren'Py Version: Ren'Py 8.5.3.26051504
+Sat Nov 14 17:01:39 2026
