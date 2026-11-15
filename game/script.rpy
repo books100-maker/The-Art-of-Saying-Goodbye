@@ -158,4 +158,26 @@ label random:
             jump random
         "Kitchen":
             jump random 
+label closet:
+    scene bg room
+    show 1 at right
+
+    "You take a few steps into a small hallway, lined with Ithen’s paintings. You hurry through, making it to the kitchen."
+
+    "The kitchen, while not decrepit, feels as if all the color has been drained from it. You can’t help hoping to see Ithen’s face in every corner."
+
+    "You push past your memories. It’s hard but must be done, if you ever want to find out what happened"
+
+    "Your mind does not clear, and your resolve waivers, but you can faintly see something glinting inside the oven."
+
+    “Ithen, he feels so close here.” 
+
+*You have acquired the second key*
+
+*You walk back to the bedroom, a little more numb than before.*
+
+*Placing the key into the lock, it opens. Revealing yet another painting.* 
+
+*You have acquired another art peice.*
+
 
