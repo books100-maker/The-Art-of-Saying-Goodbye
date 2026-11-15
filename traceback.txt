@@ -1,0 +1,23 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 146, in script
+    jump game
+renpy.script.LabelNotFound: could not find label 'game'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Traceback (most recent call last):
+  File "game/script.rpy", line 146, in script
+    jump game
+  File "renpy/ast.py", line 1938, in execute
+    rv = renpy.game.script.lookup(target)
+         ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "renpy/script.py", line 1217, in lookup
+    raise LabelNotFound(original)
+renpy.script.LabelNotFound: could not find label 'game'.
+
+macOS-26.6.2-arm64-arm-64bit arm64
+Ren'Py 8.5.3.26051504
+The Art of Saying Goodbye 2 1.0
+Sat Nov 14 17:24:40 2026

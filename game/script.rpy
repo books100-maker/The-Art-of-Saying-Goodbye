@@ -106,7 +106,21 @@ label key:
     scene bg room
     show 3 at right with moveinleft
 
-    e "I wonder if there are more?"
+    e "I wonder where this goes. I think I saw a chest back out in the bedroom—maybe it works there?"
+
+    "you walk back to the bedroom, just a little more numb than before."
+
+    "turning to the closet, you find a chest. It’s not quite large, but not quite small, either. You wonder what’s inside."
+
+    "You insert the key into the lock, the only thing that keeps you from the secrets inside. Nothing happens."
+
+    "I wonder what could be in there? Either way, if this key doesn’t fit…oh—it has to go somewhere..."
+
+    "You look around once more, realizing that the art desk had been locked. One lock for each drawer."
+
+    "It wasn’t like that before."
+
+    "You quickly make your way to the art desk—and, swiftly shoving the key into the lock, open the desk. Inside, you find one singular piece of art."
 
     e "huh?"
 screen talk_key2():
@@ -124,4 +138,24 @@ label idk:
     scene bg room
     show key2 at center
     e "Another one?"
+
+    
+label random:
+    scene bg room
+    show 2 at right
+    
+    "art piece 1 acquired"
+
+    "there are 3 more locks"
+    menu: 
+        "where do you want to search?"
+
+        "Closet":
+            e "words"
+            jump random
+
+        "Bed":
+            jump random
+        "Kitchen":
+            jump random 
 
