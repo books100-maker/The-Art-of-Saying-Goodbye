@@ -170,14 +170,14 @@ label closet:
 
     "Your mind does not clear, and your resolve waivers, but you can faintly see something glinting inside the oven."
 
-    “Ithen, he feels so close here.” 
+    e “Ithen, he feels so close here.” 
 
-*You have acquired the second key*
+    e "You have acquired the second key"
 
-*You walk back to the bedroom, a little more numb than before.*
+    e "You walk back to the bedroom, a little more numb than before."
 
-*Placing the key into the lock, it opens. Revealing yet another painting.* 
-
-*You have acquired another art peice.*
+    e "Placing the key into the lock, it opens. Revealing yet another painting."
+    
+    e "You have acquired another art peice."
 
 
